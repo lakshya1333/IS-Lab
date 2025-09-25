@@ -1,0 +1,12 @@
+Setting up and using the virtual environment
+Create a virtual environment
+python3 -m venv securecorp-env
+Activate the environment
+source securecorp-env/bin/activate
+Install required packages
+(securecorp-env) $ pip install cryptography
+(securecorp-env) $ pip install pycryptodome
+Reminder
+Each time you open a new terminal, you must activate the environment again:
+source securecorp-env/bin/activate
+
